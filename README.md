@@ -3,7 +3,7 @@ About r-sweidnumbr
 
 Home: https://github.com/rOpenGov/sweidnumbr/
 
-Package license: BSD_2_clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sweidnumbr-feedstock/blob/master/LICENSE.txt)
 
