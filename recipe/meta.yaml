@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/rOpenGov/sweidnumbr/
-  license: BSD_2_clause
+  license: BSD-2-Clause
   summary: Structural handling of identity numbers used in the Swedish administration such as
     personal identity numbers ('personnummer') and organizational identity numbers ('organisationsnummer').
   license_family: BSD
