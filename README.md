@@ -1,11 +1,11 @@
-About r-sweidnumbr
-==================
+About r-sweidnumbr-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sweidnumbr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rOpenGov/sweidnumbr/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sweidnumbr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Structural handling of identity numbers used in the Swedish administration such as personal identity numbers ('personnummer') and organizational identity numbers ('organisationsnummer').
 
