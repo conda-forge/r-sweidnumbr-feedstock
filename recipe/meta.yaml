@@ -1,4 +1,4 @@
-{% set version = '1.4.2' %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sweidnumbr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sweidnumbr/sweidnumbr_{{ version }}.tar.gz
-  sha256: 30175db3a1f7759fff9021955c3da1ca742d88c24a9ca5972f2b71601adff27f
+  sha256: 174b6d0ffa43d08febebf2e8d7cf4eefed8e057bf479594e0b91f30b7932f870
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,8 +42,7 @@ test:
 about:
   home: https://github.com/rOpenGov/sweidnumbr/
   license: BSD-2-Clause
-  summary: Structural handling of identity numbers used in the Swedish administration such as
-    personal identity numbers ('personnummer') and organizational identity numbers ('organisationsnummer').
+  summary: Structural handling of identity numbers used in the Swedish administration such as personal identity numbers ('personnummer') and organizational identity numbers ('organisationsnummer').
   license_family: BSD
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/BSD_2_clause'
